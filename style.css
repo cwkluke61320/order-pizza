@@ -1,0 +1,72 @@
+h1{
+    text-align: center;
+    border-style: dotted;
+    border-color: black;
+    background-color: red;
+    width: 500px;
+    margin: auto;
+    
+}
+body{
+    background-color: grey;
+}
+.flex-container{
+    margin: 40px;
+    display: flex;
+    /*flex-flow: flex-direction flex-wrap*/
+    flex-wrap: wrap; /*nowrap | wrap | wrap-reverse*/
+    flex-direction: column; 
+    /*row | row-reverse | column | column-reverse*/
+  }
+  
+  .flex-item{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 15px;
+    background-color: red;
+    padding: 5px;
+    border-color: black;
+    border-style: dotted;
+  }
+  
+  .image{
+    width:50%;
+  } 
+.flex-item1{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 15px;
+    background-color: red;  
+    padding: 5px;
+    border-color: black;
+    border-style: dotted;
+  }
+.flex-item2{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 15px;
+    background-color: red;  
+    padding: 5px;
+    border-color: black;
+    border-style: dotted;
+  }
+.flex-item3{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 15px;
+    background-color: red;  
+    padding: 5px;
+    border-color: black;
+    border-style: dotted;
+  }
+.flex-item4{
+    text-align: center;
+    margin-left: 47%;
+    margin-right: 47%;
+    margin-bottom: 15px;
+    background-color: red;  
+    padding: 5px;
+    border-color: black;
+    border-style: dotted;
+  }
+  
