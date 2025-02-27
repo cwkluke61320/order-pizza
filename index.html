@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css"></link>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Pizza</title>
+</head>
+<body>
+    <h1>Circles of Pizza Pizza, and Other Pizza.</h1>
+    <div class="flex-container">
+        <div class="flex-item">
+            <label for="vol">Pick your size. 12in = $12, 15in = $15, 18in = $18.</label><br>
+            <input type="range" id="vol" name="vol" min="12" max="18">
+        </div>
+        <div class="flex-item1">
+            <label for="vol">What toppings do you want?</label><br>
+            <input type="checkbox" id="topping1" name="topping1" value="Peperoni">
+            <label for="topping1"> Peperoni</label><br>
+            <input type="checkbox" id="topping2" name="topping2" value="Bacon">
+            <label for="topping2"> Bacon</label><br>
+            <input type="checkbox" id="topping3" name=topping3" value="sausage">
+            <label for="topping3"> sausage</label>
+        </div>
+        <div class="flex-item2">
+            <label for="vol">What crust do you want?</label><br>
+            <select name="cars" id="cars">
+                <option value = "normal">normal</option>
+                <option value = "thin">thin</option>
+                <option value = "stuffed">stuffed</option>
+            </select>
+        </div>
+        <div class="flex-item3">
+            <label for="vol">what sauce do you want?</label><br>
+                <input type="radio" id="red" name="sauce" value="red">
+                <label for="red">red</label><br>
+                <input type="radio" id="white" name="sauce" value="white">
+                <label for="white">white</label><br>
+                <input type="radio" id="none" name="sauce" value="none">
+                <label for="none">none</label><br><br>
+        </div>
+        <div class="flex-item4">
+            <input type="submit" value="Submit">
+        </div>
+    </div>
+</body>
+</html>
